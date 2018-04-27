@@ -2,6 +2,9 @@
 
 > A vue component for good input text (by Chronotruck)
 
+## Demo
+An [example](https://htmlpreview.github.io/?https://github.com/chronotruck/vue-ctk-input-text/blob/master/demo/dist/index.html) is available
+
 ## Install
 
 ``` bash
