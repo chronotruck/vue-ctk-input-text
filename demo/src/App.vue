@@ -3,7 +3,7 @@
     <img src="./assets/logo.png" alt="Ctk logo">
     <div>
       <h1>VueCtkInputText</h1>
-      <h3>A VueJs component for select time (24h format)</h3>
+      <h3>A VueJs component for an input with good UX</h3>
       <ctk-input-text label="Initial input" v-model="value2" ></ctk-input-text>
       <br>
       <ctk-input-text label="Input with value" v-model="value"></ctk-input-text>
