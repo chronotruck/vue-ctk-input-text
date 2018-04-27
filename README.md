@@ -1,6 +1,6 @@
-# vue-ctk-time-picker
+# vue-ctk-input-text
 
-> A vue component for good input text  (by Chronotruck)
+> A vue component for good input text (by Chronotruck)
 
 ## Install
 
