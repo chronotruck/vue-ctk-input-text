@@ -31,8 +31,7 @@
     },
     data () {
       return {
-        isFocus: false,
-        inputValue: null
+        isFocus: false
       }
     },
     methods: {
