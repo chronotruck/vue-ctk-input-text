@@ -5,7 +5,7 @@ if (document.querySelector('#vueCtkInputTextContainerDiv')) {
   Vue.component('ctk-input-text', VueCtkInputText)
   new Vue({
     el: '#vueCtkInputTextContainerDiv',
-    data () {
+    data: function () {
       return {
         value: "Hello world",
         value2: null

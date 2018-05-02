@@ -29,19 +29,19 @@
         default: 'text'
       }
     },
-    data () {
+    data: function () {
       return {
         isFocus: false
       }
     },
     methods: {
-      onFocus () {
+      onFocus: function () {
         this.isFocus = true
       },
-      onBlur () {
+      onBlur: function () {
         this.isFocus = false
       },
-      updateValue () {
+      updateValue: function () {
         this.$emit('input', this.$refs.CtkTimePicker.value)
       }
     }
