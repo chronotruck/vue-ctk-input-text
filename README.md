@@ -1,6 +1,6 @@
 ![vue-ctk-input-text](./src/assets/logo_sticky.png)
 
-# vue-ctk-date-time-picker
+# vue-ctk-input-text
 
 > A vue component for select dates (range mode available) & time
 
