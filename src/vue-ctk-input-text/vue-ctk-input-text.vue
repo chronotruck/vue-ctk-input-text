@@ -1,5 +1,8 @@
 <template>
-  <div id="VueCtkInputText">
+  <div
+    id="VueCtkInputText"
+    class="vue-ctk-input-text"
+  >
     <div
       ref="parent"
       :class="{'is-focused': isFocus, 'has-value': value, 'has-error': errorHint}"
@@ -68,7 +71,8 @@
 </script>
 
 <style lang="scss" scoped>
-  #VueCtkInputText {
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+  .vue-ctk-input-text {
     .field{
       position: relative;
       .field-label{

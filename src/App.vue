@@ -1,5 +1,7 @@
 <template>
-  <div id="app">
+  <div
+    id="vueCtkDateTimePicker"
+    class="ctk-date-time-picker">
     <img
       src="./assets/logo.png"
       alt="Ctk logo">
@@ -40,6 +42,6 @@
   }
 </script>
 
-<style>
-  @import "./assets/main.css";
+<style lang="scss">
+  @import "/assets/main.css";
 </style>
