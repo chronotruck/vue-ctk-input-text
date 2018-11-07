@@ -1,7 +1,7 @@
 {
   "name": "vue-ctk-input-text",
   "description": "A vue component for a good input text (by Chronotruck)",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Louis Mazel <loic.mazuel@chronotruck.com>",
   "main": "dist/vue-ctk-input-text.min.js",
   "license": "MIT",
@@ -23,9 +23,7 @@
     "dist/"
   ],
   "dependencies": {
-    "vue": "^2.5.16",
-    "moment": "^2.22.1",
-    "moment-range": "^4.0.1"
+    "vue": "^2.5.16"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
