@@ -2,20 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>vue-ctk-input-text</title>
     <link rel="stylesheet" href="./assets/main.css">
   </head>
   <body>
-    <div id="vueCtkInputTextContainerDiv">
-      <img src="./assets/logo.png" alt="Ctk logo">
-      <h1>VueCtkInputText</h1>
-      <h3>A VueJs component for an input with good UX</h3>
-      <ctk-input-text label="Initial input" v-model="value2" ></ctk-input-text>
-      <br>
-      <ctk-input-text label="Input with value" v-model="value"></ctk-input-text>
-      <br>
-      <ctk-input-text label="Input with error-hint: true + text hint" v-model="value2" hint="Error text" :error-hint="true"></ctk-input-text>
-    </div>
-    <script src="/dist/build.js"></script>
+    <div id="app"></div>
+    <script src="/build/build.js"></script>
   </body>
 </html>
