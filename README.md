@@ -13,21 +13,21 @@
 
 ### Using yarn
 
-`yarn add vue-ctk-date-input-text`
+`yarn add vue-ctk-input-text`
 
 ### Using npm
 
-`npm i --save vue-ctk-date-input-text`
+`npm i --save vue-ctk-input-text`
 
 ## Usage
 
 ### ES6 Modules / CommonJS
 
 ```js
-import VueCtkDateTimePicker from 'vue-ctk-date-time-picker';
-import 'vue-ctk-date-time-picker/dist/vue-ctk-date-time-picker.min.css';
+import VueCtkInputText from 'vue-ctk-input-text';
+import 'vue-ctk-input-text/dist/vue-ctk-input-text.min.css';
 
-Vue.component('vue-ctk-date-input-text', VueCtkInputText);
+Vue.component('vue-ctk-input-text', VueCtkInputText);
 ```
 
 ```html
