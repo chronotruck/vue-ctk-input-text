@@ -31,9 +31,9 @@
         default: 'Enter text'
       },
       value: {
-        type: Boolean,
+        type: String,
         required: false,
-        default: Boolean
+        default: String
       },
       hint: {
         type: String,
